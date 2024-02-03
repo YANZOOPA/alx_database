@@ -1,7 +1,7 @@
--- create_table_script.sql
-
--- Check if a database name is provided as an argument
-USE ?;
+-- 4-first_table.sql
 
 -- Create the table if it doesn't exist
-CREATE TABLE IF NOT EXISTS first_table (id, name);
+CREATE TABLE IF NOT EXISTS first_table (
+    id INT,
+    name VARCHAR(256)
+);
