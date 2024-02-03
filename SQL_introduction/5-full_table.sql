@@ -1,8 +1,5 @@
 -- 5-table_description.sql
 
--- Set the database context
-USE ?;
-
 -- Retrieve column details from information schema
 SELECT COLUMN_NAME, COLUMN_TYPE, IS_NULLABLE, COLUMN_KEY, COLUMN_DEFAULT, EXTRA
 FROM INFORMATION_SCHEMA.COLUMNS
